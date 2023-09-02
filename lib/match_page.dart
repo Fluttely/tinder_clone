@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class MatchPage extends StatefulWidget {
-  const MatchPage({Key key}) : super(key: key);
 
   @override
   _MatchPageState createState() => _MatchPageState();

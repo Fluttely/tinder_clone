@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'home_page.dart';
 
 class TabsPage extends StatefulWidget {
-  TabsPage({Key key, this.title}) : super(key: key);
+  TabsPage({required this.title});
   final String title;
   @override
   _TabsPageState createState() => _TabsPageState();
@@ -25,7 +24,7 @@ class _TabsPageState extends State<TabsPage>
     ),
   ];
 
-  TabController _controller;
+  late TabController _controller;
   int _newIndex = 0;
   @override
   void initState() {

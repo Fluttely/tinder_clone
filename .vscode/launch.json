@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Tinder Clone",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+              "-d",
+              "chrome"
+            ]
+          }
+    ]
+}
